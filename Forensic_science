@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+    rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forensic Science Blog</title> 
+</head>
+<body>
+    <Header>
+        <h1 id="logo"> Forensic Science</h1> 
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://www.netflix.com/watch/81473885
+                    " class="navbutton">Home</a>
+                </li>
+                <li>
+                    <a href="https://www.netflix.com/watch/81473885
+                    "class="navbutton">About Us</a>
+                </li>
+                <li>
+                    <a href="https://www.netflix.com/watch/81473885
+                    "class="navbutton">Contact</a>
+                </li>
+            </ul>
+         </nav>
+    </Header>
+    <main>
+        <article>
+            <header>
+                 <h2>Digital Forensics</h2>
+                 <h3> Author: Ayesha Maqsood</h3>
+
+            </header>
+            <main>
+                <p> Digital Forensics sometimes known as E- Forensics is the practice of investigating and analyzing digital devices and data to uncover evidence of criminal activity, unauthorized access, or other types of digital misconduct. This field plays a critical role in modern law enforcement, corporate security, and legal proceedings, as it enables experts to trace cybercrimes, recover lost or deleted data, and provide crucial evidence for legal cases. E-forensics involves the use of specialized tools and techniques to extract, preserve, and analyze data from computers, mobile devices, networks, and other digital sources while ensuring that the evidence remains intact and admissible in court.</p>
+                <h4>Key Components and Processes</h4>
+                <p> The e-forensics process typically begins with the identification and collection of digital evidence, which must be done carefully to avoid altering or damaging the data. Forensic experts use tools like write blockers to prevent changes to the original data while making copies for analysis. Once the data is collected, forensic analysts examine it using software that can recover deleted files, analyze network traffic, and identify patterns of suspicious behavior. This analysis may involve sifting through vast amounts of data to find specific pieces of evidence, such as emails, chat logs, or traces of malware. After the analysis, experts compile their findings into a report that can be used in court or internal investigations.</p>
+                <h4> E-Fit Software</h4>
+                <p>E-FIT (Electronic Facial Identification Technique) is a valuable tool in digital forensics, aiding in the creation of facial composites to identify suspects or persons of interest in criminal investigations. Using sophisticated software, witnesses and victims work with forensic artists to generate detailed and accurate facial representations based on their recollections. This technology enhances traditional sketching methods by offering a more interactive and precise process, allowing for adjustments to facial features in real-time. E-FIT composites can be quickly distributed to law enforcement agencies and the public, improving the chances of recognizing and apprehending suspects. Additionally, the digital nature of E-FIT allows for easy integration with other forensic technologies, such as facial recognition systems, to further support investigative efforts.</p>
+                <footer>
+                    <h2>Author: Ayesha Maqsood</h2>
+                    <img src="images/screenshot.png" alt="E-FIT Software">
+                    <h3> Last posted: 25-08-2024</h3>
+                    <a href="xhttps://www.linkedin.com/in/ayesha-maqsood-a47017288/" target="_blank">Author's profile</a>
+                </footer>
+                <h2>Sign up for our newsletter</h2>
+        <form action="" method="">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required>
+            <br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <br>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="england">England</option>
+                <option value="scotland">Scotland</option>
+                <option value="wales">Wales</option>
+                <option value="northern_ireland">Northern Ireland</option>
+            </select>
+            <br>
+            <label for="bio">Biography:</label>
+            <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+            <br>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to our newsletter!
+            </label>
+            <br>
+            <input type="submit" value="Send!">
+
+        </form>
+</body>
+</html>
